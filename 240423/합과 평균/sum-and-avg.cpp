@@ -4,6 +4,7 @@ using namespace std;
 int main() {
     int a, b;
     cin>>a>>b;
-    cout<<a+b<<" "<<(double)(a + b) / 2;
+    double mean = (a + b) / 2.0;
+    cout<<a+b<<" "<<mean;
     return 0;
 }
