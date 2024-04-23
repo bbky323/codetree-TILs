@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int a, b;
+    int a=0, b=0;
     cin>>a>>b;
     double mean = (a + b) / 2.0;
     cout<<a+b<<" "<<mean;
