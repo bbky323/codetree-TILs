@@ -11,10 +11,10 @@ int main() {
         cout<<"B"<<endl;
     }
     else if(n>=70){
-        cout<<"c"<<endl;
+        cout<<"C"<<endl;
     }
     else if(n>=60){
-        cout<<"d"<<endl;
+        cout<<"D"<<endl;
     }
     else{
         cout<<"F"<<endl;
