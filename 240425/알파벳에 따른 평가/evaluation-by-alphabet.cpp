@@ -16,6 +16,9 @@ int main() {
     else if(upper == 'C'){
         cout<<"Usually"<<endl;
     }
+    else if(upper == 'D'){
+        cout<<"Effort"<<endl;
+    }
     else{
         cout<<"Failure"<<endl;
     }
