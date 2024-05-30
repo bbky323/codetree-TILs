@@ -22,7 +22,7 @@ int main() {
         if(n%2==0){
             if(i%2==0){//감소
                 for(int j=0; j<n/2-i/2; j++){
-                    cout<<"";
+                    cout<<"* ";
                 }
                 cout<<""<<endl;
             }
