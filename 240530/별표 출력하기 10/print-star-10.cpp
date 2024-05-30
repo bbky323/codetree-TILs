@@ -20,28 +20,28 @@ int main() {
     }
     for(int i=0; i<n; i++){
         if(n%2!=0){
-            if(i&2==0){
-                for(int j=n-1; j>i/2; j--){
+            if(i%2==0){
+                for(int j=n/2; j<n-i/2; j++){
                     cout<<"* ";
                 }
                 cout<<""<<endl;
             }
             else{
-                for(int j=0; j<=i+1; j++){
+                for(int j=n/2; j<=n+i/2; j++){
                     cout<<"* ";
                 }
                 cout<<""<<endl;
             }
         }
         else{
-            if(i&2==0){
-                for(int j=0; j<=i+2; j++){
+            if(i%2==0){
+                for(int j=n/2; j<=n+i/2; j++){
                     cout<<"* ";
                 }
                 cout<<""<<endl;
             }
             else{
-                for(int j=n-2; j>(i-1)/2; j--){
+                for(int j=n/2; j<n-i/2; j++){
                     cout<<"* ";
                 }
                 cout<<""<<endl;
