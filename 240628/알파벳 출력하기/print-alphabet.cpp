@@ -9,6 +9,9 @@ int main() {
         for(int j=0; j<i; j++){
             cout<<cnt;
             cnt++;
+            if(cnt>'Z'){
+                cnt='A';
+            }
         }
         cout<<""<<endl;
     }
