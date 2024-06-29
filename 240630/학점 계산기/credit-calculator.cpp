@@ -18,7 +18,7 @@ int main() {
         printf("Good");
     }
     else{
-        printf("poor");
+        printf("Poor");
     }
     return 0;
 }
