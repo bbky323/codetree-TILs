@@ -6,11 +6,9 @@ int main() {
     for(int i=0; i<100; i++){
         cin>>arr[i];
         if(arr[i]==0){
-            for(int j=0; j<i; j++){
-                sum+=arr[j];
-            }
             break;
         }
+        sum+=arr[i];
     }
     cout<<sum;
     return 0;
