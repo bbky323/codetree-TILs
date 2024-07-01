@@ -8,7 +8,7 @@ int main() {
         if(arr[i]==0){
             break;
         }
-        sum+=arr[i];
+        sum=arr[i]+arr[i-1]+arr[i-2];
     }
     cout<<sum;
     return 0;
