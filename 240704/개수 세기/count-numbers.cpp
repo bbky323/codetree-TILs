@@ -10,6 +10,6 @@ int main() {
             cnt++;
         }
     }
-    cout<<m;
+    cout<<cnt;
     return 0;
 }
