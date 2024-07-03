@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n, q, arr1[100], arr2[3]={0}, find_num=-1;
+    int n, q, arr1[100], arr2[3]={0};
     cin>>n>>q;
     for(int i=0; i<n; i++){
         cin>>arr1[i];
@@ -15,6 +15,7 @@ int main() {
         }
         else if(arr2[0]==2){
             cin>>arr2[1];
+            int find_num=-1;
             for(int j=0; j<n; j++){
                 if(arr1[j]==arr2[1]){
                     find_num=j+1;
