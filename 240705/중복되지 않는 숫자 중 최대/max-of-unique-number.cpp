@@ -24,11 +24,13 @@ int main() {
         if(i==0){
             if(arr[i]!=arr[i+1]){
                 num=arr[i];
+                break;
             }
         }
         else if(i<N-1){
             if(arr[i]!=arr[i-1] && arr[i]!=arr[i+1]){
                 num=arr[i];
+                break;
             }
         }
         else if(i==N-1){
