@@ -61,7 +61,7 @@ int main() {
                         temp2--;
                     }
                 }
-                else if(i>=m-1 && j==m-1){
+                else if(i>=n-m+1 && j==m-1){
                     temp1=i;
                     temp2=j;
                     for(int k=n-i; k>0; k--){
