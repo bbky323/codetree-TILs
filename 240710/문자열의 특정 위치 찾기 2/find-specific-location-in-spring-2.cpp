@@ -10,8 +10,8 @@ int main() {
     cin>>c;
 
     for(int i=0; i<5; i++){
-        for(int j=0; j<4; j++){
-            if(arr[i][2]==c || arr[i][3]==c){
+        for(int j=2; j<4; j++){
+            if(arr[i][j]==c || arr[i][j]==c){
                 cnt++;
                 cout<<arr[i]<<endl;
                 break;
