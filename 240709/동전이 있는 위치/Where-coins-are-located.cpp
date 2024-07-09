@@ -7,13 +7,7 @@ int main() {
     cin>>n>>m;
     for(int i=0; i<m; i++){
         cin>>r>>c;
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                if(i==r-1 && j==c-1){
-                    arr[i][j]=1;
-                }
-            }
-        }
+        arr[r-1][c-1]=1;
     }
 
     for(int i=0; i<n; i++){
