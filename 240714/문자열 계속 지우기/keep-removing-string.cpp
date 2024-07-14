@@ -16,7 +16,7 @@ int main() {
 
         i++;
 
-        if(i==A.length()-1 || A.length()==0){
+        if(i==A.length()-1 || A.length()==0 || A.length()<B.length()){
             break;
         }
     }
