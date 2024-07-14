@@ -9,8 +9,8 @@ int main() {
     cin>>A>>B;
 
     while(true){
-        if(A.substr(i,2)==B){
-            A.erase(i,2);
+        if(A.substr(i,B.length())==B){
+            A.erase(i,B.length());
             i=-1;
         }
 
