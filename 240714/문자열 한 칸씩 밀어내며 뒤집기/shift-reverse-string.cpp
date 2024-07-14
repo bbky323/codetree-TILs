@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     string s;
     int q, q_num;
+    char temp;
 
     cin>>s>>q;
 
@@ -19,10 +20,12 @@ int main() {
             cout<<s<<endl;
         }
         else if(q_num==3){
-            for(int j=s.length()-1; j>=0; j--){
-                cout<<s[j];
+            for(int j=0; j<s.length()/2; j++){
+                temp=s[j];
+                s[j]=s[s.length()-j-1];
+                s[s.length()-j-1]=temp;
             }
-            cout<<""<<endl;
+            cout<<s<<endl;
         }
     }
     return 0;
